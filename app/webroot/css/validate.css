@@ -1,0 +1,30 @@
+@charset "utf-8";
+label {
+width: 10em;
+float: left;
+}
+label.error { 
+float: none;
+color: red !important;
+padding-left: 7.5em;
+vertical-align: top;
+width: auto;
+margin-top: 0px;
+}
+p {
+clear: both;
+}
+
+em {
+font-weight: bold;
+padding-right: 1em;
+vertical-align: top;
+}
+
+#UserInvitationForm p lable.error {
+ color: #A23E01;
+    display: block;
+    font: 12px/22px Tahoma;
+    margin-left: 0;
+    padding-left: 0;
+}

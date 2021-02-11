@@ -1,0 +1,50 @@
+[28-May-2018 06:30:50 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 06:31:01 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:12:47 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:12:47 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:12:50 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:12:53 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:12:54 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:12:58 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:13:39 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:13:44 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:15:03 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:15:09 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:15:11 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:15:15 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:15:58 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:15:58 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:16:49 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:16:49 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:16:59 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:16:59 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:20:08 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:23:18 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:23:22 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:23:27 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:25:56 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:25:58 UTC] PHP Notice:  getimagesize(): Read error! in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 489
+[28-May-2018 07:30:49 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[28-May-2018 07:30:49 UTC] PHP Warning:  imagecreatefromjpeg(): '/home/rrr1ysdmzj7l/public_html/app/webroot/img/gallery/5_event.JPG' is not a valid JPEG file in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[28-May-2018 07:31:02 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[28-May-2018 07:31:02 UTC] PHP Warning:  imagecreatefromjpeg(): '/home/rrr1ysdmzj7l/public_html/app/webroot/img/gallery/14_event.JPG' is not a valid JPEG file in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[07-Jun-2018 15:04:58 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[07-Jun-2018 15:04:58 UTC] PHP Warning:  imagecreatefromjpeg(): '/home/rrr1ysdmzj7l/public_html/app/webroot/img/gallery/14_event.JPG' is not a valid JPEG file in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[22-Jul-2018 15:04:28 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[22-Jul-2018 15:04:28 UTC] PHP Warning:  imagecreatefromjpeg(): '/home/rrr1ysdmzj7l/public_html/app/webroot/img/others/addmission.JPG' is not a valid JPEG file in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[12-Aug-2018 16:45:50 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[12-Aug-2018 16:45:50 UTC] PHP Warning:  imagecreatefromjpeg(): '/home/rrr1ysdmzj7l/public_html/app/webroot/img/others/addmission.JPG' is not a valid JPEG file in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[21-Oct-2018 14:21:19 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[21-Oct-2018 14:21:19 UTC] PHP Warning:  imagecreatefromjpeg(): '/home/rrr1ysdmzj7l/public_html/app/webroot/img/slider/slider1.JPG' is not a valid JPEG file in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[01-Nov-2018 17:28:24 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[01-Nov-2018 17:28:24 UTC] PHP Warning:  imagecreatefromjpeg(): '/home/rrr1ysdmzj7l/public_html/app/webroot/img/slider/slider1.JPG' is not a valid JPEG file in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[04-Nov-2018 17:44:58 UTC] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Premature end of JPEG file
+ in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085
+[04-Nov-2018 17:44:58 UTC] PHP Warning:  imagecreatefromjpeg(): '/home/rrr1ysdmzj7l/public_html/app/webroot/img/gallery/14_event.JPG' is not a valid JPEG file in /home/rrr1ysdmzj7l/public_html/app/webroot/img/timthumb.php on line 1085

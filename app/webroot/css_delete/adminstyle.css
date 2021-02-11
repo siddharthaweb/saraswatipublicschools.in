@@ -1,0 +1,439 @@
+/*HTML Conversion: Utsab Roy
+
+
+/* CSS Document */
+/** { margin:0;  border:0; outline:0; padding:0; }*/
+ul, dl { list-style:none;}
+ol li { list-style:none;}
+
+
+/*=====================General========================*/
+
+body {
+    margin:0px;
+    padding:0px;
+    background:#d9d9d9 url(../img/admin/bg.jpg) repeat-x;
+    font:11px Tahoma, Verdana;
+    color:#707070;
+}
+p, img, td, tr, form, input, h1, h2, h3, h4, h5, h6, ul, li, dl, dd, dt{
+    margin:0;
+    padding:0;
+}
+h1 {
+    padding:0px;
+    margin:0px;
+}
+checkbox {
+    margin:0;
+    padding:0;
+    width:14px;
+    height:14px;
+}
+h2 {
+    margin:0;
+    padding:0;
+    padding:0px;
+    margin:0px;
+}
+img {
+    border:none;
+}
+a {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#5f5f5f;
+    text-decoration:underline;
+}
+a:hover {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#0099FF;
+    text-decoration:none;
+}
+form {
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+}
+label {
+    padding:0px;
+    margin:0px;
+}
+fieldset {
+    padding:0px;
+    margin:0px;
+    border:none;
+}
+.spacer {
+    padding:0px;
+    margin:0px;
+    font-size:0px;
+    line-height:0px;
+    clear:both;
+}
+.large_spacer {
+    padding:0px;
+    margin:0px;
+    font-size:0px;
+    line-height:0px;
+    clear:both;
+}
+/*a{margin:0; padding:0; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#545555; text-decoration:none;}
+
+a:hover{margin:0; padding:0; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#40a2e2; text-decoration:none;}
+
+*/
+
+/*========================Main==========================*/
+
+
+.header_main{margin:0 0 20px 0; padding:0; height:85px; width:100%; background-color: #5671A7;}
+.header_sub{margin:0 auto; padding:0; width:98%;}
+
+.logo{margin:0; padding:0; width:365px; height:85px; float:left;}
+.logo img{display:block;}
+
+ul.top_link{margin:20px 15px 0 0; padding:10px; list-style-type:none; float:right;}
+ul.top_link li{margin:0; padding:0 7px 0 7px; font-family:Tahoma, arial; color:#f8f8f8; float:left; font-size:13px; border-left:#b8b8b8 solid 1px; line-height:13px;}
+ul.top_link li a{margin:0; padding:0; font-family:Tahoma, arial; color:#f8f8f8; float:left; font-size:13px; text-decoration:none;}
+ul.top_link li a:hover{margin:0; padding:0; font-family:Tahoma, arial; color:#f0b750; float:left; font-size:13px; text-decoration:none;}
+ul.top_link li a.active{margin:0; padding:0; font-family:Tahoma, arial; color:#f0b750; float:left; font-size:13px; text-decoration:none;}
+
+.content_sec{margin:0 auto; padding:30px 0; width:90%; border:#eaeaea solid 1px; background:#fff;}
+.login_sec{margin:0 auto; padding:0; width:337px;}
+.login_sec h2{margin:0; padding:0 0 25px 0; font-family:Tahoma, arial; font-size:24px; color:#717171; font-weight:normal;}
+
+.form_login{margin:0; padding:0;}
+.form_login label{margin:0 25px 10px 0; padding:0; width:64px; float:left; line-height:25px; font-family:Tahoma, arial; font-size:13px; color:#717171; display:block;}
+.form_login input[type="text"]{margin:0 0 0 0; padding:0 5px; width:227px; float:left; height:23px; font-family:Tahoma, arial; font-size:11px; color:#717171; display:block;
+                               border:#c9c9c9 solid 1px;}
+.form_login input[type="password"]{margin:0 0 10px 0; padding:0 5px; width:227px; float:left; height:23px; font-family:Tahoma, arial; font-size:11px; color:#717171; display:block;
+                                   border:#c9c9c9 solid 1px;}
+.form_login input[type="email"]{margin:0 0 10px 0; padding:0 5px; width:227px; float:left; height:23px; font-family:Tahoma, arial; font-size:11px; color:#717171; display:block;
+                                border:#c9c9c9 solid 1px;}
+.form_login label.forget_pass{margin:0 25px 15px 89px; padding:0; width:180px; float:left; line-height:12px; font-family:Tahoma, arial; font-size:11px; color:#c8652a; 
+                              display:block;}
+.form_login label.forget_pass a{margin:0; padding:0; line-height:12px; font-family:Tahoma, arial; font-size:11px; color:#c8652a; text-decoration:none;}
+.form_login label.forget_pass a:hover{margin:0; padding:0; line-height:12px; font-family:Tahoma, arial; font-size:11px; color:#000; text-decoration:none;}
+
+.form_login label.submit_btn{margin:0 25px 0 0; padding:0 0 0 89px; width:237px; float:left; font-family:Tahoma, arial; font-size:11px; color:#c8652a; 
+                             display:block; text-align:left;}
+.form_login input[type="submit"]{margin:0 6px 0 0; padding:0; width:72px; float:left; height:28px; font-family:Tahoma, arial; font-size:14px; color:#fff; border:none;
+                                 text-align:center; background:url(../img/admin/submit.jpg) no-repeat; cursor:pointer; font-weight:bold;}
+.form_login input[type="reset"]{margin:0; padding:0; width:64px; float:left; height:28px; font-family:Tahoma, arial; font-size:14px; color:#2c2c2c;	border:none;
+                                text-align:center; background:url(../img/admin/cancel.jpg) no-repeat; cursor:pointer; font-weight:bold;}
+
+.buttonlnk{margin:0; padding:0; width:64px; height:28px; font-family:Tahoma, arial; font-size:14px; color:#2c2c2c;	border:none;text-align:center; background:url(../img/admin/cancel.jpg) no-repeat; cursor:pointer; font-weight:bold;line-height: 28px; display: inline-block;}
+.buttonlnk:hover{margin:0; padding:0; width:64px; height:28px; font-family:Tahoma, arial; font-size:14px; color:#2c2c2c;	border:none;text-align:center; background:url(../img/admin/cancel.jpg) no-repeat; cursor:pointer; font-weight:bold;line-height: 28px; display: inline-block;}
+
+.left_sec_box  h2.menuheader{color:#EEEEEE;cursor:pointer;margin-top:15px;font-family:Tahoma, arial; font-size:14px;font-weight:bold;}
+
+.content_sec_inner{margin:0 auto; padding:0; width:98%;}
+.left_sec{margin:0 10px 0 0; padding:0; float:left; width:240px;}
+
+.left_sec_box{margin:0 0 5px 0; padding:10px; border-bottom:#b5b5b5 solid 1px; border-top:#b5b5b5 solid 1px;border-left:#b5b5b5 solid 1px;border-right:#b5b5b5 solid 1px;background:url(../img/admin/left_bg.jpg) repeat-y; width:220px; background:#5671A7; border-radius:5px 5px 5px 5px; -webkit-border-radius:5px 5px 5px 5px; -moz-border-radius:5px 5px 5px 5px; behavior:url(js/PIE.htc); position:relative;}
+
+.left_sec_box h2{margin:0 0 2px 0; padding:0 0 7px 0; font-family:Tahoma, arial; font-size:16px; color:#1c1c1c; /*background:url(../img/admin/line.jpg) repeat-x bottom left;*/font-weight:normal;}
+.left_sec_box ul{margin:0; padding:2px 0 2px 5px; list-style-type:none;}
+.left_sec_box ul li{margin:0; padding:0; font-family:Tahoma, arial; font-size:12px; color:#666666; display:block;}
+.left_sec_box ul li a{margin:0; padding:5px 0 4px 15px; font-family:Tahoma, arial; font-size:13px; color:#ffffff; text-decoration:none;background:url(../img/admin/white_arrow.gif) no-repeat 4px 8px; display:block;}
+.left_sec_box ul li a:hover{margin:0; padding:5px 0 4px 15px; font-family:Tahoma, arial; font-size:13px; color:#ffffff; text-decoration:none;background: url(../img/admin/white_arrow.gif) no-repeat 4px 8px; display:block;}
+
+.menu_spliter{height:20px; border-bottom:2px dotted #EEEEEE;margin:0 0 10px 0;}
+
+.right_sec{margin:0px; padding:15px; float:left; width:77%;border-left:#b5b5b5 solid 1px; border-top:#b5b5b5 solid 1px; border-right:#b5b5b5 solid 1px;border-bottom:#b5b5b5 solid 1px;background:#fff;min-height:500px;border-radius:5px 5px 5px 5px; -webkit-border-radius:5px 5px 5px 5px; -moz-border-radius:5px 5px 5px 5px; behavior:url(js/PIE.htc); position:relative}
+
+.small_box{margin:0 28px 0 0; padding:8px 0 0 0; height:104px; width:113px; float:left; background:#f9f9f9; border:#e6e5e5 solid 1px; text-align:center;}
+.small_box img{margin:0 auto 3px auto; padding:0;}
+.small_box p{margin:0; padding:0; font-family:Tahoma, arial; font-size:12px; color:#666666; line-height:14px; text-align:center;}
+.small_box p a{margin:0; padding:0; font-family:Tahoma, arial; font-size:12px; color:#666666; line-height:14px; text-align:center; text-decoration:none;}
+.small_box p a:hover{margin:0; padding:0; font-family:Tahoma, arial; font-size:12px; color:#000; line-height:14px; text-align:center; text-decoration:none;}
+
+.footer_bg{margin:100px auto 0 auto; padding:22px 0 15px 0; background:url(../img/admin/footer_bg1.png) no-repeat top center; width:90%;}
+.footer_logo{margin:0; padding:0; display:block;}
+.footer_bg p{margin:0; padding:4px 0 0 22px; font-family:Tahoma, arial; font-size:11px; color:#888;}
+
+/*added by anindita*/
+.error-message{ padding-left:210px; color:#FF0000; clear:both; padding-bottom:5px;}
+.succcls{color:#70ac36; clear:both; padding:5px 5px 5px 0;}
+.delcls{color:#FF0000; clear:both; padding:5px 5px 5px 0;}
+.categery{ width:98%; margin:0 auto; padding:2px;}
+
+.categery-sec{ padding-bottom:7px;}
+.categery-sec .left-side{ width:200px; float:left;}
+.left-side a{  text-decoration:none; font-family:Arial;  color:#333333; font-size:11px; padding-left:25px; line-height:20px; font-weight:bold;}
+.left-side a:hover{color:#000;text-decoration:none	;}
+.categery-sec .right-side{ width:236px; float:right;}
+.categery-sec .right-side fieldset{ clear:both;}
+.categery-sec .right-side fieldset label{ width:50px; font-family:Arial; font-size:12px; line-height:20px; float:left; color:#040404;}
+.categery-sec .right-side fieldset input{ width:145px; font-family:Arial; font-size:12px; height:25px; line-height:16px; float:left; color:#767677; border:1px solid #e2e2e2; padding-left:3px; float:left;}
+
+.categery-sec .right-side fieldset input[type=submit]{ width:145px; font-family:Arial; font-size:12px;  float:left; color:#ffffff; border:1px solid #c3cad4; padding: 3px; float:left;height:25px;text-align:center;}
+
+.mainarea{ width:100%; border:1px solid #d7d6d6; }
+.mainarea .heading{ background:#5671A7; margin-bottom:1px; color:}
+.mainarea .heading ul{ list-style:none;}
+.mainarea .heading ul li{ width:240px; float:left; font-weight:bold; border-right:1px solid #707070; text-align:center; font-family:Arial; color:#fff; font-size:12px; 
+                          padding:4px 0 3px 0; height:20px;}
+.mainarea .heading ul li:last-child{border-right:none;}
+.mainarea .heading a{  text-decoration:none;   color:#fff; font-size:12px;  line-height:20px;}
+.mainarea .heading a:hover{color:#fff;text-decoration:underline	;}
+
+
+.mainarea .ash{ background:#e7e6e6; margin-bottom:1px;}
+.mainarea .ash > ul{ list-style:none;}
+.mainarea .ash > ul li{ width:240px; float:left; border-right:1px solid #fff; text-align:center; font-family:Arial; color:#383838; font-size:12px; 
+                      padding:4px 0 3px 0; height:20px;}
+.mainarea .ash > ul li:last-child{border-right:none;}
+.mainarea .ash fieldset{ clear:both; padding:6px 0;}
+.mainarea .ash fieldset label{ width:200px; font-family:Arial; font-size:12px; line-height:20px; float:left; text-align:right; padding-right:10px; color:#040404; margin:0;}
+.mainarea .ash fieldset input{ width:245px; font-family:Arial; font-size:12px; height:20px; line-height:18px; float:left; color:#767677; border:1px solid #c3cad4; padding-left:3px;margin:0;}
+
+/*
+.mainarea .ash fieldset input[type=submit]{ width:auto; height:28px;font-family:Arial; font-size:12px; line-height:28px; float:left; color:#fff; border:0; padding: 0 5px 0 5px;}
+*/
+.mainarea .ash fieldset input[type=submit]{
+    background: url("../img/admin/submit.jpg") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-family: Tahoma,arial;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    margin: 0 6px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 72px;
+}
+.mainarea .lightash fieldset input[type=submit]{
+    background: url("../img/admin/submit.jpg") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-family: Tahoma,arial;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    margin: 0 6px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 72px;
+}
+
+.mainarea .ash fieldset select{ width:245px; font-family:Arial; font-size:12px; height:20px; line-height:18px; float:left; color:#767677; border:1px solid #c3cad4; padding-left:3px;}
+.mainarea .ash fieldset textarea{ width:245px; font-family:Arial; font-size:12px; height:80px; line-height:18px; float:left; color:#767677; border:1px solid #c3cad4; padding-left:3px;}
+.mainarea .ash fieldset input[type=radio], .mainarea .ash fieldset input[type=checkbox]{ width:20px; height:auto; float:left; border:none; background:none;}
+
+.mainarea .lightash{ background:#d7d7d7; margin-bottom:1px;}
+.mainarea .lightash > ul{ list-style:none;}
+.mainarea .lightash > ul li{ width:249px; float:left; border-right:1px solid #fff; text-align:center; font-family:Arial; color:#383838; font-size:12px;
+                           padding:4px 0 3px 0; height:20px;}
+.mainarea .lightash > ul li:last-child{border-right:none;}
+.mainarea .lightash fieldset{ clear:both; padding:6px 0;}
+.mainarea .lightash fieldset label{ width:200px; font-family:Arial; font-size:12px; line-height:20px; float:left; text-align:right; padding-right:10px; color:#040404; margin:0;}
+.mainarea .lightash fieldset input{ width:245px; font-family:Arial; font-size:12px; height:20px; line-height:18px; float:left; color:#767677; border:1px solid #c3cad4; padding-left:3px; margin:0;}
+.mainarea .lightash fieldset input[type=submit]{ width:72px; height:28px;font-family:Arial; font-size:12px; line-height:28px; float:left; color:#fff; border:0;}
+.mainarea .lightash fieldset select{ width:245px; font-family:Arial; font-size:12px; height:20px; line-height:18px; float:left; color:#767677; border:1px solid #c3cad4; padding-left:3px;}
+.mainarea .lightash fieldset textarea{ width:245px; font-family:Arial; font-size:12px; height:80px; line-height:18px; float:left; color:#767677; border:1px solid #c3cad4; padding-left:3px;}
+.mainarea .lightash fieldset input[type=radio], .mainarea .lightash fieldset input[type=checkbox]{ width:20px; float:left; border:none; background:none;}
+
+.checkbox{ float:left; width:200px; margin:5px 0; display: block;}
+.checkbox input[type=checkbox] { width:20px; float:left; border:none; background:none;}
+.checkbox label{ margin-bottom:0; line-height:12px; width:125px;}
+
+.hideoptions {margin: 25px 10px; height: 50px;}
+.hideoptions2 {margin: 25px 10px; height: 50px;}
+
+input[type=button]{ background:#598fd1; width:auto; border:1px solid #4879b5; margin-top:10px; margin-left:6px; cursor:pointer; padding:4px 5px; float:right; font-size:12px; font-weight:bold; color:#ffffff; font-family:Arial; text-align:center; text-transform:uppercase;}
+input[type=button]:hover{ background:#88b826; border:1px solid #5c8c15;}
+
+input[type=submit]{ background:#000; width:auto; border:#666666 solid 1px; margin-left:6px; margin-top:1px;  cursor:pointer; padding:1px 5px 4px 6px; float:right; font-size:12px; font-weight:bold; color:#ffffff; font-family:Arial; text-align:center; text-transform:uppercase;}
+.buttonlink { background:#598fd1; width:auto; border:1px solid #4879b5; margin-top:10px; margin-left:6px; cursor:pointer; padding:5px 5px; float:right; font-size:12px; font-weight:bold; color:#ffffff; font-family:Arial; text-align:center; text-transform:uppercase; text-decoration:none;}
+.buttonlink:hover {color:#fff;background:#88b826;}
+.headingall{font-weight: bold;padding-bottom: 10px;padding-left: 0;padding-right: 0;padding-top: 10px;text-align: center;width: 100%; font-size:1.5em;
+            color:#101010;}
+
+.clear {clear:both; font-size:0; height: 0;}
+.showtab{float:left;width:auto; margin-right:10px; margin-top:5px;}
+.showlist{text-align:left; float:left; width:auto;}
+.showaddlink{text-align:right;padding-top:15px;float:right; width:auto;} 
+
+.green-bar2{background:#101010; padding:3px 3px 3px 6px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+.green-bar2 a{color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; text-decoration:none;}
+.green-bar2 a:hover{color:#fff; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold;}
+
+/* popup_box DIV-Styles*/
+#error_id { 
+    display:none; /* Hide the DIV */
+    position:absolute;  
+    height:auto;  
+    width:auto;  
+    background:#FFFFFF;  
+    left: 10px;
+    bottom: 100px;
+    z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: 15px;  
+
+    /* additional features, can be omitted */
+    border:1px solid #000;      
+    padding:20px 40px 15px 15px;  
+    font-size:12px;  
+    -moz-box-shadow: 0 0 5px #000;
+    -webkit-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+
+}
+
+#container {
+    background: #fff; /*Sample*/
+    width:100%;
+    height:100%;
+}
+
+a{  
+    cursor: pointer;  
+    text-decoration:none;  
+} 
+
+/* This is for the positioning of the Close Link */
+#popupBoxClose {
+    font-size:16px;  
+    line-height:15px;  
+    right:5px;  
+    top:5px;  
+    position:absolute;  
+    color:#000;  
+    font-weight:500;      
+}
+
+.art-typ-catagari{border-bottom:1px solid #e4e4e4; padding:5px 0;}
+.art-typ-catagari .week{background:url(../img/bottom-devider.jpg) left bottom repeat-x; padding-bottom:10px; margin-bottom:20px;}
+.art-typ-catagari .week dl{ clear:both; overflow:hidden;}
+.art-typ-catagari .week dl dt{ width:85px; float:left; line-height:23px; float:left; text-align:right; padding-right:15px; font-size:13px; color:#555555;}
+.art-typ-catagari .week dl dd{ width:32px; float:left; text-align:center; float:left; display:table-cell; background:#00fe00; color:#a5365b; border:1px solid #383838; padding:4px 5px;}
+.art-typ-catagari .week dl dd.red{ background:#fe1a1a;}
+.art-typ-catagari .week dl dd.weekday{ width:32px; float:left; text-align:center; font-size:13px; float:left; background:none; color:#a5365b; border:none; padding:4px 6px;}
+
+.art-typ-catagari .aval{ margin-top:8px;}
+.art-typ-catagari .aval li{ width:85px; float:left; line-height:26px; float:left; text-align:right; padding-right:15px; font-size:13px; color:#555555;}
+.art-typ-catagari .aval li.avale{ width:auto; float:left; line-height:26px; float:left; text-align:left; padding-right:15px; font-size:13px; color:#555555;}
+.art-typ-catagari .aval li.avale span{ width:14px; float:left; text-align:center; float:left; display:table-cell; background:#00fe00; display:block; color:#a5365b; border:1px solid #383838; padding:0px 5px; margin-right:5px;}
+.art-typ-catagari .aval li.avale span.red{ background:#fe1a1a;}
+
+
+.description{}
+.description h5{ line-height:24px; font-weight:normal; font-size:11px; font-weight:bold;}
+.description p{ line-height:18px;}
+
+/* added by siddhartha */
+.art-relation{ margin:0 0 0 200px; width:240px;}
+.name-art-relation{width:100px; float:left;padding:10px 10px 10px 10px; font:normal 12px/24px Arial, Helvetica, sans-serif;}
+
+/** Paging **/
+<!-- pagination css -->
+ul{border:0; margin:0; padding:0;}
+
+#pagination_main{ clear:both; float:right; margin:10px 0 0 0;}
+
+#pagination div{
+    border:0; margin:10px; padding:0;
+    font-size:11px;
+    list-style:none;
+    top:10px;
+}
+#pagination a{
+    border:solid 1px #DDDDDD;
+    margin-right:2px;
+}
+#pagination .disabled,
+#pagination .next-off {
+    color:#666666;
+    display:block;
+    float:left;
+    font-weight:bold;
+    padding:3px 4px;
+}
+#pagination .next a,
+#pagination .prev a {
+    font-weight:bold;
+    border:solid 1px #FFFFFF;
+} 
+#pagination .current{
+    color:#ff0084;
+    font-weight:bold;
+    display:block;
+    float:left;
+    padding:4px 6px;
+}
+#pagination a:link,
+#pagination a:visited {
+    color:#0063e3;
+    display:block;
+    float:left;
+    padding:3px 6px;
+    text-decoration:none;
+}
+#pagination a:hover{
+    border:solid 1px #666666;
+}
+#pagination .msg{ color:#000000; font-weight:bold; padding-top:6px;}
+.uesr-link{color:#FFFFFF;font-weight:bold;}
+.profile-image{ float:left; border:none;}
+.chose-profile{ margin:70px 0 0 10px; outline:none;}
+.sub-heading{ color:#000000; font-weight:bold; width:1000px; height:30px; font-size:15px; background-color:#CCCCCC; text-transform:uppercase; padding:5px 0 5px 5px; }
+.changeStatus {cursor: pointer;}
+
+#user-search{float: left; width:400px;/*---edited---*/}
+/*---edited---*/
+#user-search .input_text{
+    float:left;
+}
+#user-search .input_select{
+    float:left;
+    padding:0 10px;
+}
+#user-search .input_submit input{
+    float:left;
+    background: url("../img/admin/submit.jpg") no-repeat scroll 0 0 transparent ;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Tahoma,arial;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    margin: 0 6px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 72px;
+}
+/*---edited---*/
+#sort-by{
+    float: right; 
+    background:url("../img/admin/sort_bg.jpg") repeat-x;/*---edited---*/
+    padding:8px; /*clear: both;*//*---edited---*/
+    width:242px;
+}
+#userA a{color: #FF0000;}
+#userA a:hover{color: #FF0000;}
+
+.alpha-serach-title{color:#000000; font-weight: bold; text-decoration: underline;font-size: 12px; }
+.alpha-serach a {text-decoration: none; font-size: 12px; color:#000000; letter-spacing: 10px;}
+
+.mainarea .messageN{ background:#ffffff; margin-bottom:1px; border-bottom:1px solid #D7D6D6;}
+.mainarea .messageN ul{ list-style:none;}
+.mainarea .messageN ul li{ width:240px; float:left; border-right:1px solid #D7D6D6; text-align:center; font-family:Arial; color:#383838; font-size:12px; padding:4px 0 3px 0; height:20px; font-weight: bold;}
+.mainarea .messageN ul li:last-child{border-right:none;}
+
+.mainarea .messageY{ background:#F9F9F9; margin-bottom:1px; border-bottom:1px solid #D7D6D6;}
+.mainarea .messageY ul{ list-style:none;}
+.mainarea .messageY ul li{ width:240px; float:left; border-right:1px solid #D7D6D6; text-align:center; font-family:Arial; color:#383838; font-size:12px; padding:4px 0 3px 0; height:20px;}
+.mainarea .messageY ul li:last-child{border-right:none;}
+
+.group-view ul li{
+    height: auto !important;
+}
